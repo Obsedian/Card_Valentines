@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: pink;
+}
+
+h1 {
+    font-size: 28px;
+    color: darkred;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.yes-btn {
+    background: green;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.no-btn {
+    background: red;
+    color: white;
+    position: absolute;
+}
+
